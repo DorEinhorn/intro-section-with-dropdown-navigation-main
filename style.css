@@ -101,6 +101,11 @@ gap: 2.5rem;
     gap: .5rem;
 }
 
+.sub-menu.two > ul > .sub-link:not(:last-child) {
+  padding-bottom: 0.6rem;
+}
+
+
 .active .arrow{
     transform: rotate(180deg);
     transition: 0.2s;
